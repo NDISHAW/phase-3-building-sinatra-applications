@@ -7,8 +7,5 @@ class App < Sinatra::Base
   end
   
 end
-require_relative "./config/environment"
-
-run ApplicationController
 
 run App
